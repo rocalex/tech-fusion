@@ -42,7 +42,7 @@ const AboutSection = () => {
               Since our founding, TechFusion has been at the forefront of digital innovation, helping businesses leverage cutting-edge technologies to gain competitive advantages and create new opportunities.
             </p>
             <p className="text-lg text-gray-700 mb-6">
-              Our team of senior developers, data scientists, and blockchain experts work collaboratively to deliver solutions that not only meet but exceed client expectations.
+              OUR TEMA OUR TEAM Our team of senior developers, data scientists, and blockchain experts work collaboratively to deliver solutions that not only meet but exceed client expectations.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
