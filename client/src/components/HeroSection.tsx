@@ -2,6 +2,10 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { GradientText } from "@/components/ui/gradient-text";
 import { staggerContainer, fadeInUp, fadeInRight } from "@/utils/animation";
+import { 
+  Facebook, Diamond, Globe, Lightbulb, 
+  ShieldCheck, Award
+} from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -67,10 +71,24 @@ const HeroSection = () => {
           >
             <p className="text-white font-medium">Trusted by innovative companies:</p>
             <div className="flex flex-wrap gap-8">
-              <div className="h-8 w-24 bg-white/20 rounded-md"></div>
-              <div className="h-8 w-24 bg-white/20 rounded-md"></div>
-              <div className="h-8 w-24 bg-white/20 rounded-md"></div>
-              <div className="h-8 w-24 bg-white/20 rounded-md"></div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <Facebook className="text-white" size={20} />
+              </div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <Globe className="text-white" size={20} />
+              </div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <Diamond className="text-white" size={20} />
+              </div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <Lightbulb className="text-white" size={20} />
+              </div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <ShieldCheck className="text-white" size={20} />
+              </div>
+              <div className="h-10 px-4 bg-white/20 rounded-md flex items-center justify-center">
+                <Award className="text-white" size={20} />
+              </div>
             </div>
           </motion.div>
         </div>
